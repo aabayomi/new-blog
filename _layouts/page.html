@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <!-- <title>{{ page.title }}</title> -->
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="abayomi personal blog.">
+    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+</head>
+
+<body>
+    <div id="StayFocusd-infobar" style="display: none; top: 0px;">
+        <img src="chrome-extension://laankejkbhbdhmipfmgcngdelahlfoji/common/img/eye_19x19_red.png">
+        <span id="StayFocusd-infobar-msg"></span>
+        <span id="StayFocusd-infobar-links">
+            <a id="StayFocusd-infobar-never-show">hide forever</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+            <a id="StayFocusd-infobar-hide">hide once</a>
+        </span>
+    </div>
+
+
+    <div id="menu">
+        <span class="title">abayomi adekanmbi</span>
+        <ul>
+            {% for item in site.data.navigation %}
+            <li class="nav-item">
+                <a class="nav-link" href="{{ item.path }}">{{ item.title }}</a>
+            </li>
+            {% endfor %}
+
+        </ul>
+    </div>
+
+    <div id="left">&nbsp;</div>
+    <div id="content">
+        <div id="content">
+            {{content}}
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+    <!-- <h1>{{ page.title }}</h1>
+    <section>
+      {{ content }}
+    </section>
+    <footer>
+      &copy; to me
+    </footer> -->
+
+
+</body>
+
+</html>

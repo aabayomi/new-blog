@@ -1,0 +1,20 @@
+
+<div class="post-title">
+	<h1>{{ page.title }}</h1>
+	{% include post-header.html %}
+</div>
+
+<div id="left">&nbsp;</div>
+<div id="content">
+	<div id="content">
+		
+
+		{% if page.title%}
+		<h1>{{page.title}}</h1>
+		{% else %}
+		<h1>Untitled post</h1>
+		{% endif %}
+		{{ page.date | date: "%b %d, %Y" }}
+		{{ content }}
+	</div>
+</div>

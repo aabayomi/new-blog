@@ -1,0 +1,12 @@
+- title: about
+  path: /about
+- title: blog
+  path: /blog/
+- title: reads
+  path: /reads/
+- title: projects
+  path: /projects/
+# - title: publication
+#   path: /publication/
+# - title: photography
+#   path: /photography/

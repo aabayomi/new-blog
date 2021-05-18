@@ -1,0 +1,36 @@
+<div id="menu">
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <span class="title">abayomi adekanmbi</span>
+
+
+
+    <!-- <span class="credits">
+            <ul>
+                {% for sl in site.data.personal.social %}
+                {% unless sl[1] == '' %}
+                <a href="{{sl[1]}}" target="_blank"><i class="fa fa-{{sl[0]}}"></i></a>
+                {% endunless %}
+                {% endfor %}
+            </ul>
+        </span> -->
+
+
+
+
+    <!-- <li>
+            <a href="https://github.com/aabayomi" target="_blank"><i class="fa fa-github"></i></a>
+            <a href="https://medium.com/@aabayomi" target="_blank"><i class="fa fa-medium"></i></a>
+            <a href="https://twitter.com/theodunayo" target="_blank"><i class="fa fa-twitter"></i></a>
+            <a href="https://linkedin.com/in/abayomi-adekanmbi" target="_blank"><i class="fa fa-linkedin"></i></a>
+        </li> -->
+
+
+    <ul>
+        {% for item in site.data.navigation %}
+        <li class="nav-item">
+            <a class="nav-link" href="{{ item.path }}">{{ item.title }}</a>
+        </li>
+        {% endfor %}
+
+    </ul>
+</div>
