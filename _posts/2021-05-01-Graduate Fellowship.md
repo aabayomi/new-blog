@@ -1,6 +1,6 @@
 ---
 title: "Curated List of Graduate School Fellowships"
-layout: page
+layout : post
 tags: [fellowship,graduate school]
 published: true
 ---

@@ -1,8 +1,8 @@
 ---
-layout: page
 title: "Achieving Artificial General Intelligence: Gaming"
 tags: [Artificial Intelligence,Gaming,Machine Learning]
 published: true 
+layout : post
 ---
 
 

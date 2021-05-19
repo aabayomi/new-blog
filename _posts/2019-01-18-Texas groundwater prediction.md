@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: "Texas Groundwater Prediction"
 tags: [data visualization,javascript]
 published: true 

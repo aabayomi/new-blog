@@ -1,14 +1,10 @@
-
-<div class="post-title">
-	<h1>{{ page.title }}</h1>
-	{% include post-header.html %}
-</div>
+---
+layout: page
+---
 
 <div id="left">&nbsp;</div>
 <div id="content">
 	<div id="content">
-		
-
 		{% if page.title%}
 		<h1>{{page.title}}</h1>
 		{% else %}
@@ -17,4 +13,12 @@
 		{{ page.date | date: "%b %d, %Y" }}
 		{{ content }}
 	</div>
+
 </div>
+
+
+<!-- utteranc for comments -->
+<!-- <script src="https://utteranc.es/client.js" repo="aabayomi/new-blog" issue-term="og:title" theme="github-dark"
+	crossorigin="anonymous" async>
+	</script> -->
+<!-- utteranc for comments -->

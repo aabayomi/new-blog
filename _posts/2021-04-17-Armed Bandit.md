@@ -5,7 +5,7 @@ tags:
 - Reinforcement Learning
 - Artificial Intelligence
 published: false 
-layout: page
+layout: post
 ---
 <!-- 
 {{< figure
