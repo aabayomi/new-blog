@@ -1,8 +1,6 @@
 ---
-layout: page
+layout: newpage
 ---
-
-<div id="left">&nbsp;</div>
 <div id="content">
 	<div id="content">
 		{% if page.title%}
@@ -12,6 +10,7 @@ layout: page
 		{% endif %}
 		{{ page.date | date: "%b %d, %Y" }}
 		{{ content }}
+
 		<div class="comments">
 			{% include utterance.html%}
 		</div>

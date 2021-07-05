@@ -40,6 +40,7 @@ google:
 # theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-last-modified-at
 
 gems:
   - jekyll-sitemap
@@ -82,6 +83,13 @@ utterances:
   theme:               "github-light"
 
 permalink: /posts/:title
+
+
+# adding last site modification 
+
+# Optional. The default date format, used if none is specified in the tag.
+last-modified-at:
+    date-format: '%d-%b-%y'
 
 # defaults:
 #   -

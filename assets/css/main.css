@@ -1,4 +1,13 @@
+content {
+  max-width: 500px;
+  margin: auto;
+}
 body {
+  font-family: Helvetica;
+  font-size: 17px;
+}
+
+/* body {
     font-family: Helvetica;
     font-size: 15px;
   }
@@ -43,11 +52,13 @@ body {
   
   #content {
     margin-top: 15px;
-    float: left;
-    width: 500px;
+    margin: auto;
+    /* float: left; */
+
+    /* width: 500px;
   }
- 
-  #content h1, #content h2, #content h3 {
+  */
+  /* #content h1, #content h2, #content h3 {
     font-family: "Myriad Pro", "Helvetica Neue", Helvetica;
     margin: 0;
   }
@@ -102,9 +113,17 @@ body {
     top: -0.4em;
   }
   sub { 
-    top: 0.4em; 
-  }
+    top: 0.4em;  
+  } */
 
+/* footer { line-height: 10px; clear:both; padding:45px; } */
+/* footer hr { margin-bottom: 13px } */
+
+footer {
+  position: relative;
+  text-align: center;
+  padding: 8px;
+}
 
 /*     style for about page     */
 
@@ -143,3 +162,14 @@ body {
     .footer  { order: 4; }
   }
    
+
+
+
+
+
+
+
+
+
+
+
