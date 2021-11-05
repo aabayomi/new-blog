@@ -8,7 +8,7 @@ published: true
 layout: post
 ---
 
-All of my friends say i have a weird taste in music,i will argue i have a better and more exotic taste. I hope you like my list of my favorite bands/artists and albums. I have a bias for rock,grunge, alternative, hip-hop and afro-beats. I will appreciate you have good recommendation as well :)
+All of my friends say i have a weird taste in music,i will argue i have a better and more exotic taste. I hope you like my list of my favorite bands/artists and albums. I have a bias for rock,grunge, alternative, hip-hop and afro-beats. I will appreciate if you have good recommendation as well :)
 
 In no particular order i will probably update this from time to time. (list not exhaustive)
 
