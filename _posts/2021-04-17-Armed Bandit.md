@@ -4,7 +4,7 @@ title: "Understanding Multi-armed Bandits"
 tags:
 - Reinforcement Learning
 - Artificial Intelligence
-published: false 
+published: false
 layout: post
 ---
 <!-- 
